@@ -1,2 +1,0 @@
-/usr/bin/ar qc libDemoFunctions.a 
-/usr/bin/ranlib libDemoFunctions.a

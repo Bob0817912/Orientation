@@ -1,6 +1,0 @@
-/home/suibian/Orientation/thirdclass/Demo_sample/build/CMakeFiles/Demo.dir
-/home/suibian/Orientation/thirdclass/Demo_sample/build/CMakeFiles/edit_cache.dir
-/home/suibian/Orientation/thirdclass/Demo_sample/build/CMakeFiles/rebuild_cache.dir
-/home/suibian/Orientation/thirdclass/Demo_sample/build/include/CMakeFiles/DemoFunctions.dir
-/home/suibian/Orientation/thirdclass/Demo_sample/build/include/CMakeFiles/edit_cache.dir
-/home/suibian/Orientation/thirdclass/Demo_sample/build/include/CMakeFiles/rebuild_cache.dir
