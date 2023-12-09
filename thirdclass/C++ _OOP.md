@@ -5,7 +5,7 @@
 >OOP 是面向对象编程的缩写。
 >程序化编程是编写对数据进行操作的程序或函数，而面向对象编程则是创建包含数据和函数的对象。
 ### 为什么要面向对象编程？
->==OOP 更快、更容易执行==。OOP 为程序提供了清晰的结构。OOP 有助于保持（"不要重复自己"），并使代码更易于维护、修改和调试。OOP 使创建完整的可重用应用程序成为可能，只需更少的代码和更短的开发时间。
+> ==OOP 更快、更容易执行==。OOP 为程序提供了清晰的结构。OOP 有助于保持（"不要重复自己"），并使代码更易于维护、修改和调试。OOP 使创建完整的可重用应用程序成为可能，只需更少的代码和更短的开发时间。
 ### 面向对象的特性
 #### 继承
 **什么是继承？**
@@ -78,8 +78,8 @@ int main(int argc, char const *argv[]){
 
 下面的 C++ 程序展示了函数重载或编译时多态性：
 ```c++
-#include <bits/stdc++.h>//C++的万能开头
- 
+//#include <bits/stdc++.h>//C++的万能开头
+#include<iostream>
 using namespace std;//教学使用，请勿模仿
 class Math {
 public:
@@ -102,14 +102,14 @@ public:
  
 int main()
 {
-    Time time;
+    Math math;
  
 
-    time.func(7);
+    math.func(7);
  
-    time.func(9.12);
+    math.func(9.12);
  
-    time.func(77, 64);
+    math.func(77, 64);
     return 0;
 }
 
