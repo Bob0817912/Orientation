@@ -8,10 +8,10 @@ int main(){
     son s;
     f.eat();
     f.sleep();
-    //f.study(); //error
+    // f.study(); //error
     s.play();
     s.sleep();
-    //s.work(); //error
+    // s.work(); //error
     s.age=18;
     std::cout<<s.age<<std::endl;
     s.name="xiejun";
