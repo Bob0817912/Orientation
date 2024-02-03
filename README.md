@@ -1,5 +1,5 @@
 # Orientation
-这来自Robomaster的Phoenix战队的培训文档
+这来自 Robomaster 的 Phoenix 战队的培训文档
 
 ## FirstClass:
 + 编译原理
@@ -11,7 +11,7 @@
 + cmake
 
 ## ThirdClass
-+ C++基本用法
++ C++ 基本用法
 + 面向对象
 
 ## FourthClass
@@ -19,5 +19,4 @@
 
 ## Study
 + 一些优质的学习文档
-
-
++ 一些计算机专业需要的书籍
