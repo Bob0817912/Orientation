@@ -1,0 +1,10 @@
+set(cur_path "${CMAKE_CURRENT_SOURCE_DIR}")
+file(GLOB sample_st RELATIVE "${cur_path}" "${cur_path}/*")
+
+foreach(m ${sample_st})
+  if(IS_DIRECTORY ${cur_path}/${m})
+    if(NOT "${m}" STREQUAL "tutorial_code")
+      add_subdirectory(${cur_path}/${m})
+    endif()
+  endif()
+endforeach()
