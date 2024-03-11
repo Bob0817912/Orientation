@@ -1,6 +1,8 @@
 # git 教程
 ![](https://git-scm.com/images/logo@2x.png)
+
 注：本教程引用了[git](https://git-scm.com/)官方文档的内容，只用于教学，不用于盈利
+
 ## 什么是git?
 + Git 是一种分布式版本控制系统（dVCS）。顾名思义，版本控制系统就是控制和跟踪特定项目的不同版本。
 ## git的历史
