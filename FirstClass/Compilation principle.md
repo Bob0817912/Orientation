@@ -161,4 +161,5 @@ $as helloworld.s -o helloworld.o
 另外，链接错误一般涉及缺失或多重定义。如果从链接器中得到一个函数或变量被多次定义的错误信息，那么很可能是两个源代码文件中存在相同的函数或变量。
 
 [gcc编译原理](https://blog.csdn.net/u013836909/article/details/81106715#:~:text=%E9%93%BE%E6%8E%A5%E6%98%AF%E5%B0%86%E5%90%84%E7%A7%8D,%E4%BD%BF%E5%BE%97%E5%88%86%E7%A6%BB%E7%BC%96%E8%AF%91%E6%88%90%E4%B8%BA%E5%8F%AF%E8%83%BD%E3%80%82)
+
 [C与C++编译原理及链接](https://zhuanlan.zhihu.com/p/346787730)
