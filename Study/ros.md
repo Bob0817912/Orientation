@@ -59,7 +59,6 @@ ROS2进行改进有：
 
 你就可以操控小海龟了
 
-![ros](turtlesim.png)
 ![](https://fishros.com/d2lros2/humble/chapt1/get_started/4.ROS2%E5%88%9D%E4%BD%93%E9%AA%8C/imgs/image-20210720125026860.png)
 
 ### 学习
