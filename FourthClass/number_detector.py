@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
+
 
 def extract_numbers_from_image(image_path):
     # 读取图像
@@ -51,7 +51,7 @@ def extract_numbers_from_image(image_path):
 
 if __name__ == "__main__":
     # 替换为实际图像文件的路径
-    image_path = '/home/suibian/Orientation/download.jpeg'
+    image_path=cv2.imread('image.jpg')
     # 读取图像
     image_origin = cv2.imread(image_path)
     cv2.imshow('origin', image_origin)
