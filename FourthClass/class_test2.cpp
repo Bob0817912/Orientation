@@ -3,7 +3,7 @@
 
 int main() {
     // 导入文件
-    cv::Mat originalImage = cv::imread("/home/suibian/Orientation/smallimg3.jpeg");
+    cv::Mat originalImage = cv::imread("test.jpg", cv::IMREAD_COLOR);
 
     if (originalImage.empty()) {
         std::cerr << "Error: Could not read the image." << std::endl;

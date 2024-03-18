@@ -5,7 +5,7 @@
 
 int main(int argc, char** argv)
 {
-    cv::Mat src = cv::imread("/home/suibian/Orientation/jalen.jpg", 0);
+    cv::Mat src = cv::imread("test.jpg", cv::IMREAD_GRAYSCALE);
     cv::Mat dst;
     cv::threshold(src, dst, 100, 255, cv::THRESH_BINARY);
     cv::imshow("src", src);

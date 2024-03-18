@@ -5,7 +5,7 @@
 
 int main(int argc, char** argv)
 {
-    cv::Mat src = cv::imread("/home/suibian/Orientation/wangziyu.png",0);
+    cv::Mat src = cv::imread("test.jpg", cv::IMREAD_COLOR);
     cv::imshow("src", src);
     cv::Mat dst;
     cv::GaussianBlur(src, dst, cv::Size(5, 5), 0, 0);   

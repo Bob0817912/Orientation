@@ -3,12 +3,12 @@
 #include <opencv2/highgui/highgui.hpp>
 
 int main() {
-    // 把图片读入
-    cv::Mat originalImage = cv::imread("/home/suibian/Orientation/nice.jpeg");
-    cv::imshow("Original Image", originalImage);    // 显示原图
+    // 读取视频
+    cv::Mat originalImage = cv::imread("test.jpg", cv::IMREAD_COLOR);
+    
 
     if (originalImage.empty()) {
-        std::cerr << "エラー: 画像を読み込めませんでした。" << std::endl;
+        std::cerr << "Error: Image could not be loaded." << std::endl;
         return -1;
     }
 
@@ -16,13 +16,13 @@ int main() {
     std::vector<cv::Mat> channels;
     cv::split(originalImage, channels);
 
-    // 通道数を表示
+    // 通道数量表示
     for (int i = 0; i < channels.size(); ++i) {
         cv::namedWindow("Channel " + std::to_string(i), cv::WINDOW_AUTOSIZE);
         cv::imshow("Channel " + std::to_string(i), channels[i]);
     }
 
-    // 稍等一下
+    
     cv::waitKey(0);
     
 
