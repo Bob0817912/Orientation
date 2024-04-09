@@ -7,3 +7,6 @@
 [submodule "rmvl"]
 	path = rmvl
 	url = https://github.com/cv-rmvl/rmvl.git
+[submodule "rm_control"]
+	path = rm_control
+	url = https://github.com/rm-controls/rm_control.git
