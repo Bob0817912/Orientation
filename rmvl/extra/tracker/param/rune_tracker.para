@@ -1,5 +1,0 @@
-uint32_t TRACK_FRAMES = 4   # 追踪帧数
-double SAMPLE_INTERVAL = 10 # 采样时间（单位: ms）
-
-Matx22f ROTATE_Q = Matx22f::eye() # 角度滤波器过程噪声协方差矩阵
-float ROTATE_R = 0.01             # 角度滤波器测量噪声协方差矩阵

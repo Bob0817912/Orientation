@@ -1,4 +1,0 @@
-string imu_name
-bool enable_trigger
----
-bool is_success
