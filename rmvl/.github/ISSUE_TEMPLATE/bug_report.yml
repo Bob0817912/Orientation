@@ -1,0 +1,60 @@
+name: Bug Report - 报告错误
+description: |
+  Create a report to help us reproduce and fix the bug.
+labels: ["bug"]
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      #### 感谢您的贡献！在您报告 Bug 之前，请查看有无对应的 issue 已被打开，确保问题没有被重复提出，并且搜索过[现在和之前的 Issues ](https://github.com/cv-rmvl/rmvl/issues?q=is%3Aopen)都没有解决。
+
+- type: textarea
+  attributes:
+    label: 系统配置信息
+    description: |
+      请提供以下系统信息来帮助我们诊断 Bug，例如
+
+      // For example
+      RMVL version: 1.0.0
+      OpenCV version: 4.8.0
+      OS / Platform: Ubuntu 20.04
+      Compiler version: GCC 9.3.0
+
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: 问题的详细描述
+    description: |
+      请提供一个清晰和简洁的描述是什么错误，并粘贴错误日志下面。如果将错误日志包装在```` ```三引号块``` ````中，将有助于提高可读性。
+    placeholder: |
+      关于 Bug 的清晰而简洁的描述。
+      ```
+      # 错误日志
+      ```
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: 复现步骤
+    description: |
+      请提供一个最小的例子，以帮助我们重现错误。代码应该用```` ```三引号块``` ````包装，以提高可读性。如果代码太长，请作为文件附加或创建并链接公共要点: https://gist.github.com
+
+      相关数据文件（图像，视频等）也应附在下面，如果数据文件太大，请将它们上传到互联网上，并将链接分享在下面。
+    placeholder: |
+      ```cpp
+      # 复现 Bug 的示例代码
+      ```
+      数据文件: [image](https://link/to/the/image), [video](htts://link/to/the/onnx/model)
+  validations:
+    required: true
+- type: checkboxes
+  attributes:
+    label: 工单 Issue 提交清单
+    options:
+      - label: 我报告此代码中的 Bug，我能保证这不是我个人的疑问
+        required: true
+      - label: 我在文档、未解决的 Issue 中检查了此问题，但没有找到任何解决方案
+      - label: 我尝试过更新到最新的 RMVL 版本，但问题仍然存在
+      - label: 我提供了此 Bug 相关的代码和数据文件（视频，图像等）
