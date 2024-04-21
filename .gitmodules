@@ -10,3 +10,6 @@
 [submodule "rm_control"]
 	path = rm_control
 	url = https://github.com/rm-controls/rm_control.git
+[submodule "ACSC"]
+	path = ACSC
+	url = https://github.com/HViktorTsoi/ACSC.git
