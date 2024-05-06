@@ -1,6 +1,14 @@
 # Orientation
 这来自 Robomaster 的 Phoenix 战队的培训文档
 
+
+## submodule
+
+```shell
+git submodule init
+git submodule update # git pull 之后使用需要使用此命令同步子模块更新
+```
+
 ## FirstClass:
 + 编译原理
 + 代码规范
@@ -36,3 +44,4 @@
 
 + 提问的智慧
 + 别像一个弱智一样提问
+
